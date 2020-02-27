@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thebenmod:blocks/dirt",
+    "up": "thebenmod:blocks/dirt",
+    "north": "thebenmod:blocks/dirt",
+    "east": "thebenmod:blocks/dirt",
+    "south": "thebenmod:blocks/dirt",
+    "west": "thebenmod:blocks/dirt",
+    "particle": "thebenmod:blocks/dirt"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "thebenmod:h_portal_ew"
+    },
+    "axis=x": {
+      "model": "thebenmod:h_portal_ns"
+    },
+    "inventory": {
+      "model": "thebenmod:h_portal_ns"
+    }
+  }
+}

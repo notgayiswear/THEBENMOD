@@ -1,0 +1,95 @@
+{
+  "id_map": {
+    "ENTITY": 4,
+    "DIMENSION": 1
+  },
+  "mod_elements": [
+    {
+      "name": "PastaTopsoil",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PastaDirt",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PastaStone",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PastaCobblestone",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CookedSpaghetti",
+      "type": "food",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "H",
+      "type": "dimension",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 1
+      }
+    },
+    {
+      "name": "U",
+      "type": "biome",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "tile.pastatopsoil.name": "Pasta Topsoil",
+      "item.h.name": "H Portal Igniter",
+      "tile.pastadirt.name": "Pasta Dirt",
+      "tile.pastacobblestone.name": "Pasta Cobblestone",
+      "tile.pastastone.name": "Pasta Stone",
+      "item.cookedspaghetti.name": "Cooked Spaghetti"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "thebenmod",
+    "modName": "thebenmod",
+    "version": "1.0.0",
+    "author": "obamaisgrand",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "usesProFeatures": false,
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000105419
+}

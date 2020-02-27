@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "thebenmod:blocks/grass",
+    "up": "thebenmod:blocks/grass",
+    "north": "thebenmod:blocks/grass",
+    "east": "thebenmod:blocks/grass",
+    "south": "thebenmod:blocks/grass",
+    "west": "thebenmod:blocks/grass",
+    "particle": "thebenmod:blocks/grass"
+  }
+}
