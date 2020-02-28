@@ -14,7 +14,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.init.Items;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.ai.EntityAIWander;
@@ -68,7 +67,7 @@ public class MCreatorBootyman extends Elementsthebenmod.ModElement {
 		RenderingRegistry.registerEntityRenderingHandler(EntityCustom.class, renderManager -> {
 			RenderBiped customRender = new RenderBiped(renderManager, new ModelBiped(), 0.5f) {
 				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("thebenmod:textures/poophead.png");
+					return new ResourceLocation("thebenmod:textures/sans------13892203.png");
 				}
 			};
 			customRender.addLayer(new net.minecraft.client.renderer.entity.layers.LayerBipedArmor(customRender) {
@@ -94,7 +93,6 @@ public class MCreatorBootyman extends Elementsthebenmod.ModElement {
 			this.tasks.addTask(4, new EntityAILookIdle(this));
 			this.tasks.addTask(5, new EntityAISwimming(this));
 			this.tasks.addTask(6, new EntityAILeapAtTarget(this, (float) 0.8));
-			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND, new ItemStack(Items.EGG, (int) (1)));
 		}
 
 		@Override
