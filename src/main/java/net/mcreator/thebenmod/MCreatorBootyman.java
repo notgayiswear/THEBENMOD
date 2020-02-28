@@ -11,22 +11,18 @@ import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.EnumHand;
 import net.minecraft.util.DamageSource;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.init.Items;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.ai.EntityAIWander;
 import net.minecraft.entity.ai.EntityAISwimming;
-import net.minecraft.entity.ai.EntityAIPanic;
 import net.minecraft.entity.ai.EntityAILookIdle;
 import net.minecraft.entity.ai.EntityAILeapAtTarget;
 import net.minecraft.entity.ai.EntityAIHurtByTarget;
-import net.minecraft.entity.ai.EntityAIFollow;
-import net.minecraft.entity.ai.EntityAIEatGrass;
+import net.minecraft.entity.ai.EntityAIAttackMelee;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.entity.EnumCreatureAttribute;
@@ -92,14 +88,12 @@ public class MCreatorBootyman extends Elementsthebenmod.ModElement {
 			experienceValue = 10;
 			this.isImmuneToFire = false;
 			setNoAI(!true);
-			this.tasks.addTask(1, new EntityAIWander(this, 4));
-			this.tasks.addTask(2, new EntityAILookIdle(this));
-			this.tasks.addTask(3, new EntityAISwimming(this));
-			this.tasks.addTask(4, new EntityAILeapAtTarget(this, (float) 0.8));
-			this.tasks.addTask(5, new EntityAIPanic(this, 1.2));
-			this.targetTasks.addTask(6, new EntityAIHurtByTarget(this, false));
-			this.tasks.addTask(7, new EntityAIEatGrass(this));
-			this.tasks.addTask(8, new EntityAIFollow(this, (float) 15, 10, 5));
+			this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, true));
+			this.tasks.addTask(2, new EntityAIAttackMelee(this, 1.2, true));
+			this.tasks.addTask(3, new EntityAIWander(this, 4));
+			this.tasks.addTask(4, new EntityAILookIdle(this));
+			this.tasks.addTask(5, new EntityAISwimming(this));
+			this.tasks.addTask(6, new EntityAILeapAtTarget(this, (float) 0.8));
 			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND, new ItemStack(Items.EGG, (int) (1)));
 		}
 
@@ -110,7 +104,7 @@ public class MCreatorBootyman extends Elementsthebenmod.ModElement {
 
 		@Override
 		protected Item getDropItem() {
-			return new ItemStack(Items.EGG, (int) (1)).getItem();
+			return new ItemStack(Items.CAULDRON, (int) (1)).getItem();
 		}
 
 		@Override
@@ -134,14 +128,12 @@ public class MCreatorBootyman extends Elementsthebenmod.ModElement {
 		}
 
 		@Override
-		public boolean processInteract(EntityPlayer entity, EnumHand hand) {
-			super.processInteract(entity, hand);
-			entity.startRiding(this);
-			int x = (int) this.posX;
-			int y = (int) this.posY;
-			int z = (int) this.posZ;
-			ItemStack itemstack = entity.getHeldItem(hand);
-			return true;
+		public boolean attackEntityFrom(DamageSource source, float amount) {
+			if (source == DamageSource.CACTUS)
+				return false;
+			if (source == DamageSource.LIGHTNING_BOLT)
+				return false;
+			return super.attackEntityFrom(source, amount);
 		}
 
 		@Override
@@ -150,11 +142,11 @@ public class MCreatorBootyman extends Elementsthebenmod.ModElement {
 			if (this.getEntityAttribute(SharedMonsterAttributes.ARMOR) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
-				this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(10D);
+				this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(4D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(45D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) != null)
-				this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(1D);
+				this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(10D);
 		}
 	}
 }
