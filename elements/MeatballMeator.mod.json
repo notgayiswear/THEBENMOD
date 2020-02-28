@@ -1,0 +1,35 @@
+{
+  "_fv": 5,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "qtgwsnd-pixilart",
+    "customModelName": "Normal",
+    "name": "Meatball Meator",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.enderdragon.death"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 5.0,
+    "bulletDamage": 10.0,
+    "bulletKnockback": 15,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Items.COOKED_BEEF"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

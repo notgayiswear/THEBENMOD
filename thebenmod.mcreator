@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "ENTITY": 4,
+    "ENTITY": 5,
     "DIMENSION": 1
   },
   "mod_elements": [
@@ -61,6 +61,24 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "MeatballMeator",
+      "type": "gun",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 5
+      }
+    },
+    {
+      "name": "Meatball",
+      "type": "food",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -68,7 +86,9 @@
   "language_map": {
     "en_us": {
       "tile.pastatopsoil.name": "Pasta Topsoil",
+      "item.meatball.name": "Meatball",
       "item.h.name": "H Portal Igniter",
+      "item.meatballmeator.name": "Meatball Meator",
       "tile.pastadirt.name": "Pasta Dirt",
       "tile.pastacobblestone.name": "Pasta Cobblestone",
       "tile.pastastone.name": "Pasta Stone",
