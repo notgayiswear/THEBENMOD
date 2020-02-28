@@ -69,6 +69,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "PastaWood",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -79,6 +87,7 @@
       "item.h.name": "H Portal Igniter",
       "tile.pastadirt.name": "Pasta Dirt",
       "tile.pastacobblestone.name": "Pasta Cobblestone",
+      "tile.pastawood.name": "Pasta Wood",
       "tile.pastastone.name": "Pasta Stone",
       "item.cookedspaghetti.name": "Cooked Spaghetti"
     }
