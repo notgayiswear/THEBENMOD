@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "ENTITY": 4,
+    "ENTITY": 6,
     "DIMENSION": 1
   },
   "mod_elements": [
@@ -61,13 +61,36 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Bootyman",
+      "type": "mob",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 5,
+        "1": 6
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "ben.bruh.gay",
+      "file": "bruh_sound_effect_3",
+      "category": "master"
+    },
+    {
+      "name": "gay.gay",
+      "file": "man_screaming_sound_effect",
+      "category": "hostile"
+    }
+  ],
   "language_map": {
     "en_us": {
       "tile.pastatopsoil.name": "Pasta Topsoil",
+      "entity.bootyman.name": "Bootyman",
       "item.h.name": "H Portal Igniter",
       "tile.pastadirt.name": "Pasta Dirt",
       "tile.pastacobblestone.name": "Pasta Cobblestone",

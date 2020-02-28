@@ -1,1 +1,20 @@
-{}
+{
+  "ben.bruh.gay": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "thebenmod:bruh_sound_effect_3",
+        "stream": false
+      }
+    ]
+  },
+  "gay.gay": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "thebenmod:man_screaming_sound_effect",
+        "stream": false
+      }
+    ]
+  }
+}
