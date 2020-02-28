@@ -79,6 +79,22 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Ragu",
+      "type": "food",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Slurp",
+      "type": "achievement",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -86,11 +102,14 @@
   "language_map": {
     "en_us": {
       "tile.pastatopsoil.name": "Pasta Topsoil",
+      "advancements.slurp.title": "Slurp",
       "item.meatball.name": "Meatball",
       "item.h.name": "H Portal Igniter",
       "item.meatballmeator.name": "Meatball Meator",
       "tile.pastadirt.name": "Pasta Dirt",
+      "advancements.slurp.descr": "Drink ragu",
       "tile.pastacobblestone.name": "Pasta Cobblestone",
+      "item.ragu.name": "Ragu",
       "tile.pastastone.name": "Pasta Stone",
       "item.cookedspaghetti.name": "Cooked Spaghetti"
     }
