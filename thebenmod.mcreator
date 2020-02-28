@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "ENTITY": 6,
+    "ENTITY": 7,
     "DIMENSION": 1
   },
   "mod_elements": [
@@ -83,6 +83,64 @@
       "metadata": {
         "dependencies": []
       }
+    },
+    {
+      "name": "RaguFoodEaten",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ragu",
+      "type": "food",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MeatballFoodEaten",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Meatball",
+      "type": "food",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Meatballmeatorstaff",
+      "type": "gun",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 7
+      }
     }
   ],
   "variable_elements": [],
@@ -102,9 +160,12 @@
     "en_us": {
       "tile.pastatopsoil.name": "Pasta Topsoil",
       "entity.bootyman.name": "Bootyman",
+      "item.meatball.name": "Meatball",
       "item.h.name": "H Portal Igniter",
       "tile.pastadirt.name": "Pasta Dirt",
+      "item.meatballmeatorstaff.name": "Meatballmeatorstaff",
       "tile.pastacobblestone.name": "Pasta Cobblestone",
+      "item.ragu.name": "Ragu",
       "tile.pastastone.name": "Pasta Stone",
       "item.cookedspaghetti.name": "Cooked Spaghetti"
     }

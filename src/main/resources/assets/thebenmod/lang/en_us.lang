@@ -1,7 +1,10 @@
 tile.pastatopsoil.name=Pasta Topsoil
 entity.bootyman.name=Bootyman
+item.meatball.name=Meatball
 item.h.name=H Portal Igniter
 tile.pastadirt.name=Pasta Dirt
+item.meatballmeatorstaff.name=Meatballmeatorstaff
 tile.pastacobblestone.name=Pasta Cobblestone
+item.ragu.name=Ragu
 tile.pastastone.name=Pasta Stone
 item.cookedspaghetti.name=Cooked Spaghetti
