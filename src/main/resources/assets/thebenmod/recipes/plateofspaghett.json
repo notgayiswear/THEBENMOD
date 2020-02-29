@@ -1,0 +1,19 @@
+{
+  "group": "thebenmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "thebenmod:meatball"
+    },
+    {
+      "item": "thebenmod:ragu"
+    },
+    {
+      "item": "thebenmod:cookedspaghetti"
+    }
+  ],
+  "result": {
+    "item": "thebenmod:plateofspaghetti",
+    "count": 1
+  }
+}
