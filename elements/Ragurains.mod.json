@@ -2,16 +2,16 @@
   "_fv": 5,
   "_type": "biome",
   "definition": {
-    "name": "spaghettisahara",
+    "name": "Ragurains",
     "groundBlock": {
       "value": "CUSTOM:PastaTopsoil"
     },
     "undergroundBlock": {
       "value": "CUSTOM:PastaDirt"
     },
-    "generateLakes": true,
+    "generateLakes": false,
     "treeType": 0,
-    "vanillaTreeType": "Mega pine trees",
+    "vanillaTreeType": "Default",
     "minHeight": 7,
     "spawnVines": false,
     "treeVines": {
@@ -26,22 +26,22 @@
     "treeFruits": {
       "value": ""
     },
-    "customColors": true,
+    "customColors": false,
     "airColor": {
-      "value": -52480,
+      "value": -5916161,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -13261999,
+      "value": -3407872,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -14329397,
+      "value": -3407872,
       "falpha": 0.0
     },
-    "treesPerChunk": 0,
-    "grassPerChunk": 10,
-    "flowersPerChunk": 10,
+    "treesPerChunk": 3,
+    "grassPerChunk": 0,
+    "flowersPerChunk": 0,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
     "sandPathcesPerChunk": 0,
@@ -49,14 +49,14 @@
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
     "deadBushesPerChunk": 0,
-    "rainingPossibility": 0.5,
-    "temperature": 0.5,
-    "baseHeight": 0.1,
-    "heightVariation": 0.2,
-    "spawnBiome": false,
+    "rainingPossibility": 1.0,
+    "temperature": 0.6,
+    "baseHeight": 0.09000000000000001,
+    "heightVariation": 0.19999999999999998,
+    "spawnBiome": true,
     "biomeWeight": 10,
     "biomeType": "WARM",
-    "biomeCategory": "NONE",
+    "biomeCategory": "SWAMP",
     "parent": {
       "value": "No parent"
     },

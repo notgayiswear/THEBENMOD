@@ -1,0 +1,16 @@
+{
+  "group": "thebenmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "thebenmod:meatbrick"
+    }
+  ],
+  "result": {
+    "item": "thebenmod:meatingot",
+    "count": 1
+  }
+}

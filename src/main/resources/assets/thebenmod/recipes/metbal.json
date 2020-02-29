@@ -1,0 +1,26 @@
+{
+  "group": "thebenmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "thebenmod:meatbrick"
+    },
+    "1": {
+      "item": "thebenmod:meatbrick"
+    },
+    "2": {
+      "item": "thebenmod:meatbrick"
+    },
+    "3": {
+      "item": "thebenmod:meatbrick"
+    }
+  },
+  "result": {
+    "item": "thebenmod:meatball",
+    "count": 8
+  }
+}

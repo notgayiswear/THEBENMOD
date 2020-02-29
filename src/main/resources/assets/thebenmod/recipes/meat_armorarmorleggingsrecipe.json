@@ -1,0 +1,36 @@
+{
+  "group": "thebenmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "thebenmod:meatingot"
+    },
+    "1": {
+      "item": "thebenmod:meatingot"
+    },
+    "2": {
+      "item": "thebenmod:meatingot"
+    },
+    "3": {
+      "item": "thebenmod:meatingot"
+    },
+    "5": {
+      "item": "thebenmod:meatingot"
+    },
+    "6": {
+      "item": "thebenmod:meatingot"
+    },
+    "8": {
+      "item": "thebenmod:meatingot"
+    }
+  },
+  "result": {
+    "item": "thebenmod:meat_armorarmorlegs",
+    "count": 1
+  }
+}

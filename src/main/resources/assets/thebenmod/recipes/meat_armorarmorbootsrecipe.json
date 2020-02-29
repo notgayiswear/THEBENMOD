@@ -1,0 +1,26 @@
+{
+  "group": "thebenmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "thebenmod:meatingot"
+    },
+    "2": {
+      "item": "thebenmod:meatingot"
+    },
+    "3": {
+      "item": "thebenmod:meatingot"
+    },
+    "5": {
+      "item": "thebenmod:meatingot"
+    }
+  },
+  "result": {
+    "item": "thebenmod:meat_armorarmorboots",
+    "count": 1
+  }
+}

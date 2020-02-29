@@ -1,7 +1,7 @@
 {
   "id_map": {
     "DIMENSION": 1,
-    "ENTITY": 7
+    "ENTITY": 9
   },
   "mod_elements": [
     {
@@ -173,6 +173,121 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Ragurains",
+      "type": "biome",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Meatballmountains",
+      "type": "biome",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Spaghettisnake",
+      "type": "mob",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 8,
+        "1": 9
+      }
+    },
+    {
+      "name": "Rawmeat",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Meatbrick",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Meatingot",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Meatin",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Met",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Meat_armorArmor",
+      "type": "armor",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Meat_armorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Meat_armorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Meat_armorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Meat_armorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Metbal",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -190,17 +305,25 @@
   ],
   "language_map": {
     "en_us": {
+      "item.meat_armorarmorbody.name": "Meat_armor Chestplate",
       "tile.pastatopsoil.name": "Pasta Topsoil",
-      "item.plateofspaghetti.name": "Plateofspaghetti",
-      "entity.bootyman.name": "Bootyman",
+      "item.meatingot.name": "Meatingot",
+      "item.meat_armorarmorboots.name": "Meat_armor Boots",
       "item.meatball.name": "Meatball",
       "item.h.name": "H Portal Igniter",
       "tile.pastadirt.name": "Pasta Dirt",
       "item.meatballmeatorstaff.name": "Meatballmeatorstaff",
-      "tile.pastacobblestone.name": "Pasta Cobblestone",
       "item.ragu.name": "Ragu",
       "tile.pastastone.name": "Pasta Stone",
-      "item.cookedspaghetti.name": "Cooked Spaghetti"
+      "item.cookedspaghetti.name": "Cooked Spaghetti",
+      "item.meat_armorarmorlegs.name": "Meat_armor Leggings",
+      "entity.spaghettisnake.name": "Spaghettisnake",
+      "item.plateofspaghetti.name": "Plateofspaghetti",
+      "item.meat_armorarmorhelmet.name": "Meat_armor Helmet",
+      "item.meatbrick.name": "Meatbrick",
+      "entity.bootyman.name": "Bootyman",
+      "item.rawmeat.name": "Rawmeat",
+      "tile.pastacobblestone.name": "Pasta Cobblestone"
     }
   },
   "workspaceSettings": {

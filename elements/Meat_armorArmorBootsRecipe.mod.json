@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:Meat_armorArmor.boots"
+    },
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Meatingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Meatingot"
+      },
+      {
+        "value": "CUSTOM:Meatingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Meatingot"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "meat_armorarmorbootsrecipe",
+    "namespace": "mod"
+  }
+}
